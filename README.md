@@ -1,4 +1,6 @@
-This project shows how to extend the AbstractContextualPropertyProviderPlugin class of GateIn, with the intent to provide an easy mechanism for portlets to verify if navigation is coming from within the same portlet, or from outside. Note that due to the package visibility of some methods and members of the AbstractContextualPropertyProviderPlugin class, the custom extension needs to reside in the 'org.exoplatform.portal.application.state' package.
+This project shows how to extend the AbstractContextualPropertyProviderPlugin class of GateIn, with the intent to provide an easy mechanism for portlets to verify if navigation is coming from within the same portlet, or from outside. It is based on the concept of [GateIn Portal Navigational Properties](https://community.jboss.org/wiki/GateInPortalNavigationalProperties). It will become obsolte once the [request](https://bugzilla.redhat.com/show_bug.cgi?id=1032715) to provide a navigational resetting functionality has been implemented.
+
+Note that due to the package visibility of some methods and members of the AbstractContextualPropertyProviderPlugin class, the custom extension needs to reside in the 'org.exoplatform.portal.application.state' package.
 
 Build instructions:
 ==================
